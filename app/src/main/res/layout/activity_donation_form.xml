@@ -4,12 +4,122 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".donation_form">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Form"/>
 
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="18dp"
+        android:background="@drawable/rectangle">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input Credentials:"
+            android:textSize="18sp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="24dp"
+            android:textStyle="bold"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="24dp">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/input_uid"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="38dp"
+            android:hint="UId/Aadhar Number"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginHorizontal="24dp">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/input_name"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="38dp"
+            android:hint="Full Name"
+            android:inputType="textPersonName" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_marginHorizontal="48dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+            android:text="Blood Group :"
+            android:textSize="20sp"
+            android:layout_margin="12dp"
+            android:textColor="#000"/>
+        <Spinner
+            android:layout_marginTop="8dp"
+            android:id="@+id/spinner_blood_group"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:gravity="end"
+            android:pointerIcon="grabbing"
+            android:textAlignment="viewEnd"
+            android:layout_height="wrap_content">
+        </Spinner>
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="24dp">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/input_units"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="38dp"
+            android:hint="Units you wish to donate"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/button_done_end"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginHorizontal="62dp"
+        android:text="Done"
+        android:layout_marginBottom="24dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/primaryTextColor"/>
+
+    </LinearLayout>
 </LinearLayout>

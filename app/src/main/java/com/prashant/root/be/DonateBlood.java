@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class DonateBlood extends AppCompatActivity {
 
@@ -30,6 +31,7 @@ public class DonateBlood extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(DonateBlood.this, "We appreciate your contribution!", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(DonateBlood.this,donation_form.class));
             }
         });

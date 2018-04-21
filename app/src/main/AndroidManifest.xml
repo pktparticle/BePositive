@@ -35,7 +35,9 @@
         <activity
             android:name=".DonateBlood"
             android:label="Guidelines" />
-        <activity android:name=".donation_form"></activity>
+        <activity android:name=".donation_form"
+            android:parentActivityName=".DonateBlood"
+            android:label="@string/my_info"></activity>
     </application>
 
 </manifest>
