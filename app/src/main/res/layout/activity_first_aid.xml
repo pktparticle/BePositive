@@ -12,9 +12,10 @@
         android:layout_margin="20dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
         <TextView
+            android:id="@+id/listHead"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="14dp"
@@ -29,7 +30,23 @@
             android:id="@+id/list_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+
+
+
+        <Button
+            android:id="@+id/agreement_btn"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="36dp"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/agreement"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/primaryTextColor"/>
+
+
     </LinearLayout>
+
 
 
 

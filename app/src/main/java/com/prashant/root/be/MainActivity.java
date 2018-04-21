@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
                     mTextMessage.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            open();
+                            dialog_getBlood();
                         }
                     });
                     return true;
@@ -110,7 +110,8 @@ public class MainActivity extends AppCompatActivity {
                     mTextMessage.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            startActivity(new Intent(MainActivity.this, DonateBlood.class));
+                            dialog_donateBlood();
+                            //startActivity(new Intent(MainActivity.this, DonateBlood.class));
                         }
                     });
                     return true;
@@ -131,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    public void open(){
+    public void dialog_getBlood(){
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         alertDialogBuilder.setMessage(R.string.dialog_get_blood);
         alertDialogBuilder.setTitle("We pray for your Good Health");
@@ -145,6 +146,33 @@ public class MainActivity extends AppCompatActivity {
 
                             }
                         });
+
+        alertDialogBuilder.setNegativeButton("Back",new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                //finish();
+            }
+        });
+
+        AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
+    }
+
+
+    public void dialog_donateBlood(){
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        alertDialogBuilder.setMessage(R.string.dialog_donate_blood);
+        alertDialogBuilder.setTitle("Donate Blood and Save Lives");
+        alertDialogBuilder.setPositiveButton("Sure",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface arg0, int arg1) {
+                        Intent intent = new Intent(MainActivity.this,DonateBlood.class);
+                        startActivity(intent);
+                        Toast.makeText(MainActivity.this,"We appreciate your contribution!",Toast.LENGTH_LONG).show();
+
+                    }
+                });
 
         alertDialogBuilder.setNegativeButton("Back",new DialogInterface.OnClickListener() {
             @Override

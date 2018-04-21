@@ -36,6 +36,16 @@
 
     <string name="first_aid">"Select your emergency and follow the steps:"</string>
 
+
+    <string-array name="donors_guidelines">
+        <item>Eligibilities</item>
+        <item>Non-Eligibilities</item>
+        <item>Preparation</item>
+        <item>Post Donation Care</item>
+        <item>How to Relieve?</item>
+
+    </string-array>
+
     <string-array name="first_aid_diseases">
         <item>Burns and Scalds</item>
         <item>Bites and Stings</item>
@@ -53,6 +63,39 @@
         <item>Swallowed Poisons</item>
         <item>Vommiting and Diarrhea</item>
     </string-array>
+
+    <string name="eligibilities">\n\n1. Any donor, who is healthy, fit and not suffering from any transmittable diseases can donate blood.
+        \n\n2. Donor must be 18 -60 years age and having a minimum weight of 50Kg can donate blood.
+        \n\n3. Donor’s Hemoglobin level is 12.5% minimum.
+        \n\n4. A donor can again donate blood after 3 months of your last donation of blood.
+        \n\n5. Pulse rate must be between 50 to 100mm without any irregularities.
+        \n\n6. BP Diastolic 50 to 100 mm Hg and Systolic 100 to 180 mm Hg.
+        \n\n7. Body temperature should be normal and oral temperature should not exceed 37.5 degree Celsius.\n\n</string>
+
+    <string name="nonEligibilities">\n\n1. Donors should not suffer from Cardiac arrest, hypertension, kidney alignments, epilepsy or diabetics.
+        \n\n2. Ladies with a bad miscarriage should avoid donating blood for the next 6 months.
+        \n\n3. If donor already donated blood or have been treated for malaria within the last three months.
+        \n\n4. If donor undergone any immunization within the past one month.
+        \n\n5. If donor consumed alcohol within the last 24 hours.
+        \n\n6. If you are HIV+.
+        \n\n7. If donor had a dental work for next 24 hours and wait for one month if donor had a major dental procedure.\n\n</string>
+
+    <string name="preparation">\n\n1. Prepare yourself by having enough fruit juice and water in the night and morning before you donate blood.
+        \n\n2. Avoid donating blood in empty stomach. Eat three hours before you donate blood. Avoid fatty foods. Eat food which
+        is rich in iron such as whole grains, eggs, and beef, and spinach, leafy vegetables, orange and citrus.
+        \n\n3. Don’t consume Alcohol or caffeine beverages before donating blood.
+        \n\n4. Avoid donating blood for 6 months if you had any major surgery.\n\n</string>
+
+    <string name="postDonationCare">\n\n1. Have some rest 5 to 20 minutes after donation. Do not drive after donation of blood.
+        \n\n2. Have some snacks and juice with high sugar content which will help to rejuvenate the blood sugar back up.
+        \n\n3. Have a good meal with high protein content such as Chicken, Beef etc,.
+        \n\n4. Do not consume Alcohol for 8 hours after donation of blood.
+        \n\n5. Avoid going for a heavy body works such as gym, dancing, running etc at least for next one day.\n\n</string>
+
+    <string name="howToRelieve">\n\nWhile you are being needled to take blood, relax to the maximum, have a deep breath.
+        There will be little pain or no pain.\n
+        Try to distract yourself from the process by having a chewing gum.
+        Listen to some music or watch some entertaining TV program.\n\n</string>
 
 
     <string name="SEVERE_EXTERNAL_BLEEDING" translatable="false">\n1. Remove or cut clothing as necessary to expose the wound.\n
@@ -205,13 +248,18 @@ lie down once again, and raise and support his legs until he recovers fully.
     <string name="dialog_get_blood">May you get the required blood.\nPlease spread
         awareness among people to come forward for
     Blood Donation, it can save many lives.</string>
+    <string name="dialog_donate_blood">Every drop of Blood counts!\nIf you’re a blood donor, you’re a hero to someone, somewhere,
+        who received your gracious gift of life.</string>
     <string name="select_the_credentials">Select the credentials:</string>
     <string name="list_blood_bank">The requested Blood Group can be found at these Blood Banks
         with indicative Quantities:</string>
     <string name="sign_out">Sign Out</string>
     <string name="select_problem">Select Problem !</string>
-    <string name="disease_detail">Disease Detail</string>
+    <string name="disease_detail">Description</string>
     <string name="blood_banks">Blood Banks</string>
     <string name="details">Details</string>
+    <string name="donors_guidelines">Donors Guidelines</string>
+    <string name="agreement">I\'m eligible and Wish to Donate</string>
+    <string name="guideline_head">Before you Donate Blood, you need to know Donors Guidelines:</string>
 
 </resources>

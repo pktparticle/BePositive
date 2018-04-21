@@ -5,14 +5,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle"
+    android:layout_margin="60dp"
+    android:padding="5dp"
     tools:context=".DonateBlood">
 
+
     <TextView
+        android:id="@+id/listGuidelines"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="36sp"
-        android:text="Donate Blood"
-        android:gravity="center"/>
+        android:layout_height="wrap_content"
+        android:text="Eligibilities"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="30dp"> </View>
+
+
+
 
 </LinearLayout>

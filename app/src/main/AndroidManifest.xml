@@ -18,17 +18,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".get_blood"
-            android:label="@string/details"/>
-        <activity android:name=".blood_banks"
-            android:parentActivityName=".get_blood"
-            android:label="@string/blood_banks"/>
-        <activity android:name=".DiseaseDetail"
-            android:parentActivityName=".FirstAid"
-            android:label="@string/disease_detail"/>
-        <activity android:name=".FirstAid"
-            android:label="@string/select_problem"/>
-        <activity android:name=".DonateBlood"></activity>
+        <activity
+            android:name=".get_blood"
+            android:label="@string/details" />
+        <activity
+            android:name=".blood_banks"
+            android:label="@string/blood_banks"
+            android:parentActivityName=".get_blood" />
+        <activity
+            android:name=".DiseaseDetail"
+            android:label="@string/disease_detail"
+            android:parentActivityName=".FirstAid" />
+        <activity
+            android:name=".FirstAid"
+            android:label="@string/select_problem" />
+        <activity
+            android:name=".DonateBlood"
+            android:label="Guidelines" />
+        <activity android:name=".donation_form"></activity>
     </application>
 
 </manifest>
