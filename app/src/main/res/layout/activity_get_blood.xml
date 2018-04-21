@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.prashant.root.be.get_blood">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_the_credentials"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/rectangle"
+        android:orientation="vertical">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:layout_margin="4dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:text="State :"
+        android:textSize="20sp"
+        android:layout_margin="12dp"
+        android:textColor="#000"/>
+    <Spinner
+        android:layout_marginTop="8dp"
+        android:id="@+id/spinner_state"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:gravity="end"
+        android:pointerIcon="grabbing"
+        android:textAlignment="viewEnd"
+        android:layout_height="wrap_content">
+    </Spinner>
+</LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="City :"
+            android:textSize="20sp"
+            android:layout_margin="12dp"
+            android:textColor="#000"/>
+        <Spinner
+            android:layout_marginTop="8dp"
+            android:id="@+id/spinner_city"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:gravity="end"
+            android:pointerIcon="grabbing"
+            android:textAlignment="viewEnd"
+            android:layout_height="wrap_content">
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="Blood Group :"
+            android:textSize="20sp"
+            android:layout_margin="12dp"
+            android:textColor="#000"/>
+        <Spinner
+            android:layout_marginTop="8dp"
+            android:id="@+id/spinner_blood_group"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:gravity="end"
+            android:pointerIcon="grabbing"
+            android:textAlignment="viewEnd"
+            android:layout_height="wrap_content">
+        </Spinner>
+    </LinearLayout>
+
+    </LinearLayout>
+
+<Button
+    android:id="@+id/btn_proceed"
+    android:layout_width="match_parent"
+    android:layout_height="38dp"
+    android:text="Proceed"
+    android:background="@color/colorPrimary"
+    android:textColor="@color/secondaryTextColor"
+    android:layout_marginTop="40dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"/>
+
+</LinearLayout>

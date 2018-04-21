@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">Be +</string>
+    <string name="title_get_blood">Get Blood</string>
+    <string name="title_donate_blood">Donate Blood</string>
+    <string name="title_first_aid">First Aid</string>
+    <string name="name_of_disease">Name of disease</string>
+    <string-array name="state">
+        <item>Madhya Pradesh</item>
+        <item>Uttar Pradesh</item>
+        <item>Punjab</item>
+        <item>Bihar</item>
+        <item>Gujrat</item>
+    </string-array>
+
+
+    <string-array name="city">
+        <item>Gwalior</item>
+        <item>Delhi</item>
+        <item>Lucknow</item>
+        <item>Bengaluru</item>
+        <item>Amritsar</item>
+    </string-array>
+
+    <string-array name="blood_group">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+
+    </string-array>
+
+
+    <string name="first_aid">"Select your emergency and follow the steps:"</string>
+
+    <string-array name="first_aid_diseases">
+        <item>Burns and Scalds</item>
+        <item>Bites and Stings</item>
+        <item>Drowning</item>
+        <item>Electrical Burn</item>
+        <item>Fainting</item>
+        <item>Fever</item>
+        <item>Fracture - Closed</item>
+        <item>Fracture - Open</item>
+        <item>Foreign Objects in the Eyes</item>
+        <item>Heart Attack</item>
+        <item>Nose Bleed</item>
+        <item>Seizerus/Epilepsy</item>
+        <item>Severe External Bleeding</item>
+        <item>Swallowed Poisons</item>
+        <item>Vommiting and Diarrhea</item>
+    </string-array>
+
+
+    <string name="SEVERE_EXTERNAL_BLEEDING" translatable="false">\n1. Remove or cut clothing as necessary to expose the wound.\n
+    \n2. Apply direct pressure over the wound with your fingers using a sterile dressing or clean, gauze pad. If you do not have a
+dressing, ask the casualty to apply direct pressure himself. If there is an object in the wound, apply pressure on either side of the
+object (opposite).\n
+    \n3. Maintain direct pressure on the wound to control bleeding. Raise and support the injured limb above the level of the
+        casualty’s heart to reduce blood loss.\n\n
+    \n<b>Caution:</b>\n Do not allow the casualty to eat or drink because ananesthetic may be needed.\nIf the casualty loses consciousness
+        and is not breathing normally, begin CPR with chest compressions.\n</string>
+
+    <string name="BURNS_AND_SCALDS">\n1. Start cooling the burn as soon as possible after the injury occurred for at least ten minutes.
+        Watch for signs of breathing difficulty. Do not overcool the casualty because you may lower the body temperature to a dangerous level. This is a particular hazard for babies and elderly people.\n
+    \n2. Do not touch or otherwise interfere with the burn. Do not remove clothing that is stuck to the burn.\n
+        \n3. When the burn is cooled, cover the injured area with plastic wrap to protect it from infection.
+    \n</string>
+    <string name="BITES_AND_STINGS">\n1. Gently clean the area around the splinter with soap and warm water.\n
+    \n2. Hold the tweezers close to draw the splinter out in the end for a better grip.
+        Grasp the splinter with tweezers as close to the skin as possible.\n
+    \n3. Draw the splinter out in a straight line at the same angle that it went into the skin; make sure it does not break.\n
+    \n4. Carefully squeeze the wound to encourage a little bleeding. This will help flush out any remaining dirt.\n
+        \n5. Wash again with soap and water. Clean and dry the wound and cover with a dressing.
+    \n</string>
+
+    <string name="HEART_ATTACK" translatable="false">\n1. Call 102 for emergency help. Tell the dispatcher that you suspect a heart attack.
+        If the casualty asks you to do so, call his own doctor too.\n
+    \n2. Make the casualty as comfortable as possibleto ease the strain on his heart. A half-sitting position, with his head and
+        shoulders supported and his knees bent, is often best.Place cushions behind him and under his knees.\n
+    \n3. Assist the casualty to take up to one full-dose adult aspirin tablet (325 mg).If the casualty has angina medication,
+such as tablets or a pump-action or aerosol spray, let him administer it; help him if necessary.\n
+\n4. Encourage him to rest.Monitor and record vital signs—level of response, breathing, and pulse,while waiting for help. Stay
+calm to avoid undue stress.\n</string>
+    <string name="DROWNING">\n1. If you have rescued the casualty from the water, help him lie down on a rug or coat with his head
+        lower than the rest of the body so that water can drain from his mouth. This reduces the risk of inhaling water.\n
+\n2. Treat the casualty for hypothermia; replace wet clothing with dry clothes if possible and cover him with dry blankets or coats.\n
+        If the casualty is fully conscious, give him a warm drink.\n
+        \n3.If the casualty is unconscious and you are on your own, give CPR for two  minutes before you call 102 for emergency help.\n
+        \n4. If an unconscious casualty starts to breathe,treat him for hypothermia by covering him with warm clothes and blankets.
+        Monitor and record vital signs—breathing, pulse and level of response until help arrives.\n</string>
+    <string name="FEVER">\n1. Keep casualty cool and comfortable preferably in bed with a light covering.\n
+\n2.Give him plenty of cool drinks to replace body fluids lost through sweating.\n
+        \n3. If the person appears distressed or ill, he/she may have the recommended dose of acetaminophen syrup (not aspirin).
+An adult may take the recommended dose of acetaminophen or ibuprofen, or his own pain relievers.\n
+        \n4. Monitor and record a casualty’s vital signs—level of response, breathing, pulse, and temperature until he/she recovers.\n
+        \n\n<b>Caution: </b> Do not give aspirin to any person under 16 years of age.
+    \n</string>
+
+    <string name="FRACTURES_CLOSED">\n1. Advise the casualty to keep still. Support the joints above and below the injury with your hands
+        until it is immobilized with a sling or bandages, in the position in which it is found.\n
+    \n2. Place padding around the injury for extra support. Take or send the casualty to the hospital; a casualty with an arm
+        injury may be transported by car; call 102 for emergency help for a leg injury.\n
+        \n3. For firmer support and/or if removal to the hospital is likely to be delayed,
+        secure the injured part to an unaffected part of the body. For upper limb fractures,
+        immobilize the arm with a sling. For lower limb fractures, move the uninjured leg to the
+        injured one and secure with broad-fold bandages. Always tie knots on the uninjured side.\n
+        \n4. Treat for shock if necessary. Do not raise an injured leg. Elevate an uninjured limb
+        if shock is present. Monitor and record vital signs while waiting for help. Check the
+        circulation beyond a sling or bandage every ten minutes.If the circulation is impaired,
+        loosen the bandages.\n</string>
+    <string name="FRACTURES_OPEN">
+        \n1. Cover the wound with a sterile dressing or large, clean, gauze
+pad. Apply pressure around the injury to control bleeding ; be careful not to press on a
+        protruding bone.\n
+        \n2. Carefully place a sterile wound dressing or more clean padding over and around the
+        dressing.\n
+        \n3. Secure the dressing and padding with a bandage. Bandage firmly, but not so tightly
+        that it impairs the circulation beyond  the bandage.\n
+        \n4. Immobilize the injured part as for a closed fracture, and arrange to transport the
+        casualty to the hospital.\n
+        \n5. Treat the casualty for shock if necessary. Do not raise the injured leg. Monitor and
+        record vital signs—level of response, breathing, and pulse while waiting for help to
+        arrive. Check the circulation beyond the bandage every ten minutes. If the circulation
+        is impaired, loosen the bandages.
+    \n</string>
+
+    <string name="ELECTRICAL_BURN">\n1. Make sure that contact with the electrical source is
+        broken before you touch the casualty.\n
+        \n2. Flood the injury with cold water (at the entry and exit points if both are present)
+        for at least ten minutes or until pain is relieved. If water is not available, any cold,
+        harmless liquid can be used.\n
+        \n3. Gently remove any jewelry, watches, belts, or constricting clothing from the
+        injured area before it begins to swell. Do not touch the burn.\n
+        \n4. When the burn is cooled, place a clean plastic bag over a burn on a foot or hand,
+        taping the bag loosely in place (attach tape to the bag, not the skin). Or, cover
+        the burn with plastic wrap, laying it along the length of the limb so that it does not become too tight. If neither is
+available, use a sterile dressing or a clean gauze pad loosely.
+
+    \n</string>
+    <string name="SEIZURES" translatable="false">\n1. Make space around the casualty, and ask bystanders to move away. Remove potentially dangerous
+        items, such as hot drinks and sharp objects. Note the time that the seizure started.\n
+\n2. Protect the casualty’s head from objects nearby; place soft padding such as rolled towels underneath or around his neck if
+        possible. Loosen tight clothing around his neck if necessary.\n
+    \n3. When the convulsive movements have ceased, open the casualty’s airway and check breathing. If he is breathing, place
+        him in the recovery position.
+        \n\n4. Monitor and record his vital signs—level of response, breathing, and pulse until he/she recovers. Make a note of how
+        long the seizure lasted.
+    \n</string>
+
+    <string name="NOSEBLEED" translatable="false">\n<i>* Bleeding from the nose most commonly occurs when tiny blood vessels inside the nostrils are
+        ruptured, either by a blow to the nose, or as a result of sneezing, picking, or blowing the nose. </i>\n\n
+        <i>** Do not let the casualty tip his head back because blood may then run down the throat andinduce vomiting.</i>\n
+        \n1. Tell the casualty to sit down and tilt his head forward to allow the blood to drain from the
+nostrils. Ask him to breathe through his mouth (this will have a calming effect) and to pinch the soft part of his nose for
+        up to ten minutes, holding constant pressure. Reassure and help him if necessary.\n
+\n2. Advise the casualty not to speak, swallow, cough, spit, or sniff since this may disturb blood clots that have formed in the
+        nose. Give hima clean cloth or tissue to mop up any dribbling.\n
+        \n3. After ten minutes, tell the casualty torelease the pressure. If the bleeding hasnot stopped, tell him to reapply
+        the pressurefor two further periods of ten minutes.\n
+        \n4. Advise him to rest quietly for a few hours. Tell him to avoid exertion and, in particular, not to blow his nose,
+        because thiscould disturb any clots.
+\n</string>
+
+
+    <string name="FOREIGN_OBJECT_IN_THE_EYE">\n1. Advise the casualty not to rub his/her eye. Ask him/her to sit down facing a light.\n
+    \n2. Stand beside, or just behind, the casualty. Gently separate her eyelids with your thumbs or finger and thumb. Ask
+her to look right, left, up, and down. Examine every part of her eye as she does this.\n
+        \n3. If you can see a foreign object on the white of the eye, wash it out by pouring clean water from a glass or pitcher,
+        or by using a sterile eyewash if you have one. Put a towel around the casualty’s shoulders. Hold her eye open and pour
+        the water from the inner corner so that it drains onto the towel.\n
+        \n4. If this is unsuccessful, try lifting the object off with a moist swab or the damp corner of a clean handkerchief
+        or tissue. If you still cannot remove the object, seek medical help.\n</string>
+
+    <string name="VOMITING_AND_DIARRHEA" translatable="false">\n1. Reassure the casualty if she is vomiting and give her a warm damp cloth to wipe her
+        face.\n
+\n2. Help her sit down and when the vomiting stops give her water or unsweetened fruit juice to sip slowly and often.\n
+\n3. When the casualty is hungry again, advise  her to eat easily digested foods such as pasta, bread, or potatoes for the first
+        24 hours\n
+        \n4. If the vomiting and/or diarrhea are severe, or the casualty develops chest pain, difficulty breathing, or severe
+        abdominal pain, take or arrange to send him/her to the hospital. If the casualty becomes lightheaded or dizzy,
+        treat for fainting. \n</string>
+
+    <string name="SWALLOWED_POISONS">\n1. If the casualty is conscious, ask her what she has swallowed, and  if possible how much
+        and when. Look for clues—for example, poisonous plants, berries or empty containers. Try to reassure her.\n
+    \n2. Call for help,Give the dispatcher  as much information as possible about the poison. This information will help the
+        medical team treat the casualty.\n
+        \n3. Monitor and record the casualty’s vital signs while waiting for help to arrive. Keep samples of any vomited material.
+Give these samples, containers, and any others clues to the emergency services.\n\n
+        \n<i>* If the casualty’s lips are burned by corrosive substances, give him frequent sips of cold milk or water while waiting
+            for help to arrive.\n</i>
+
+    </string>
+
+    <string name="FAINTING">\n1. When a casualty feels  faint, advise him to lie down. Kneel down, raise his legs, supporting
+        his ankles on your shoulders to improve blood flow to the brain. Watch his face for signs of recovery.\n
+    \n2. Make sure that the casualty has plenty of fresh air; ask someone to open a window if you are indoors. In addition, ask
+any bystanders to stand clear. He may be more comfortable  if his knees are bent.\n
+    \n3. As the casualty recovers, reassure him and help him  sit up gradually. If he starts to feel faint again, advise him to
+lie down once again, and raise and support his legs until he recovers fully.
+    \n</string>
+    <string name="dialog_get_blood">May you get the required blood.\nPlease spread
+        awareness among people to come forward for
+    Blood Donation, it can save many lives.</string>
+    <string name="select_the_credentials">Select the credentials:</string>
+    <string name="list_blood_bank">The requested Blood Group can be found at these Blood Banks
+        with indicative Quantities:</string>
+
+</resources>
