@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
                             public void onClick(DialogInterface arg0, int arg1) {
                                 Intent intent = new Intent(MainActivity.this,get_blood.class);
                                 startActivity(intent);
-                                Toast.makeText(MainActivity.this,"We appreciate your contribution!",Toast.LENGTH_LONG).show();
+                             //   Toast.makeText(MainActivity.this,"We appreciate your contribution!",Toast.LENGTH_LONG).show();
 
                             }
                         });
@@ -169,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface arg0, int arg1) {
                         Intent intent = new Intent(MainActivity.this,DonateBlood.class);
                         startActivity(intent);
-                        Toast.makeText(MainActivity.this,"We appreciate your contribution!",Toast.LENGTH_LONG).show();
+                       // Toast.makeText(MainActivity.this,"We appreciate your contribution!",Toast.LENGTH_LONG).show();
 
                     }
                 });

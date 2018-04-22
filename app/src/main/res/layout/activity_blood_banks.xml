@@ -95,7 +95,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="34"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#000" />
 
         <ImageView
@@ -154,7 +154,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="34"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#000" />
 
         <ImageView
@@ -218,7 +218,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="34"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#000" />
 
         <ImageView
@@ -280,7 +280,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="34"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="#000" />
 
         <ImageView
